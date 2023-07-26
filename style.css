@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+#container{
+    width: 24rem;
+    height: 22rem;
+    border-radius: 1.6rem;
+    background: linear-gradient(hsl(213, 19%, 18%),rgb(26, 29, 33));
+    padding: 1.7rem;
+}
+
+.logo{
+    background-color: hsl(214, 18%, 23%);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-question{
+    margin: 1.4rem 0rem;
+}
+
+.description{
+    margin: 0rem 0rem 0rem 0rem;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-buttons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0rem;
+    
+}
+
+.rating-buttons{
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    background-color: hsl(214, 18%, 23%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 5%, 71%);
+    outline: none;
+    border: none;
+}
+
+.rating-buttons:hover{
+    background-color:hsl(25, 97%, 53%);
+    cursor: pointer; 
+    color: white;
+}
+
+.rating-button-selected{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+
+#submit{
+    background-color: hsl(25, 97%, 53%);
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin: 0.5rem 0rem;
+}
+
+b{
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+}
+
+#submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+/* Thank you section styles
+*******
+*******
+*******
+*******
+*/
+
+
+.thank-you-image{
+    margin: 0.5rem auto;
+    display: block;
+}
+
+.selected-rating{
+    background-color: hsl(214, 18%, 23%);
+    text-align: center;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    width: fit-content;
+    margin: 1.2rem auto;
+    color: hsl(25, 97%, 53%);
+    font-size: 0.8rem;
+}
+
+.thank-you-heading{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.thank-you-description{
+    margin: 0rem 0rem 0rem 0rem;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    color: hsl(217, 12%, 63%);
+    text-align:center;
+
+}
